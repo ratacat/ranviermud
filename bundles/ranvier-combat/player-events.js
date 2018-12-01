@@ -4,12 +4,14 @@ const Combat = require('./lib/Combat');
 const CombatErrors = require('./lib/CombatErrors');
 const LevelUtil = require('../ranvier-lib/lib/LevelUtil');
 const WebsocketStream = require('../ranvier-websocket/lib/WebsocketStream');
+//const stringify = require('json-stringify-safe');
 
 /**
  * Auto combat module
  */
 module.exports = (srcPath) => {
   const B = require(srcPath + 'Broadcast');
+  const Logger = require(srcPath + 'Logger');
 
   return  {
     listeners: {
@@ -62,6 +64,7 @@ module.exports = (srcPath) => {
        * @param {Character} target
        */
       hit: state => function (damage, target) {
+        //Logger.verbose(` TargetOBJ: ${stringify(target, null, 2)}`);
         if (damage.hidden) {
           return;
         }
@@ -306,7 +309,7 @@ module.exports = (srcPath) => {
         }
 
         if (target && !this.isNpc) {
-          B.sayAt(this, `<b><red>You killed ${target.name}!</red></b>`);
+          B.sayAt(this, `<b><red>${target.name} falls to the ground. Dead!</red></b>`);
         }
 
         this.emit('experience', xp);
@@ -335,7 +338,7 @@ module.exports = (srcPath) => {
     // Build player health bar.
     let currentPerc = getHealthPercentage(promptee);
     let progress = B.progress(progWidth, currentPerc, "green");
-    let buf = formatProgressBar(playerName, progress, promptee);
+    let buf = "" //formatProgressBar(playerName, progress, promptee);
 
     // Build and add target health bars.
     for (const target of promptee.combatants) {

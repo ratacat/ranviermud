@@ -1,0 +1,683 @@
+####################
+####################
+##..#########.....##
+##................##
+##..###...###.....##
+###.############.###
+###.###########..###
+###.###########.####
+###.###########.####
+##...###...###....##
+##...#.....###....##
+##.....#...###....##
+##...#########....##
+##...#########....##
+###.###########.####
+###..#####...##...##
+####.#####.....##.##
+#............#.#...#
+#E....####...#.....#
+####################
+
+- id: a-wandering-path
+  title: A Wandering Path
+  description: The dappled light spreads across the forest floor. The ground is covered in soft moss, and you see immense trees all around you.
+  coordinates: [1, 17, 0]
+  exits:
+    - direction: south
+      roomId: "limbo:wallys"
+- id: a-wandering-path-2
+  title: A Wandering Path
+  description: The dappled light spreads across the forest floor. The ground is covered in soft moss, and you see immense trees all around you.
+  coordinates: [1, 18, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: amongst-the-ferns
+  title: Amongst the Ferns
+  description: <black><bold>They're very large, and dripping <green></bold>moisture</green><bold>, the earth beneath your feet is black and rich. </black></bold>
+  coordinates: [2, 2, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-3
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 3, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-4
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 4, 0]
+- id: an-empty-room-5
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 9, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-6
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 10, 0]
+- id: an-empty-room-7
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 11, 0]
+- id: an-empty-room-8
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 12, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-9
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 13, 0]
+- id: an-empty-room-10
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [2, 17, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: a-wandering-path-3
+  title: A Wandering Path
+  description: The tree trunks reach really far up into the sky. The path keeps going to the east.
+  coordinates: [2, 18, 0]
+- id: an-empty-room-12
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 2, 0]
+- id: an-empty-room-13
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 3, 0]
+- id: an-empty-room-14
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 4, 0]
+- id: an-empty-room-15
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 5, 0]
+- id: an-empty-room-16
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 6, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-17
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 7, 0]
+- id: an-empty-room-18
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 8, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-19
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 9, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-20
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 10, 0]
+- id: an-empty-room-21
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 11, 0]
+- id: an-empty-room-22
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 12, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-23
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 13, 0]
+- id: an-empty-room-24
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 14, 0]
+- id: an-empty-room-25
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 15, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-26
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 17, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-27
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [3, 18, 0]
+- id: an-empty-room-28
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 3, 0]
+- id: an-empty-room-29
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 9, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-30
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 10, 0]
+- id: an-empty-room-31
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 11, 0]
+- id: an-empty-room-32
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 12, 0]
+- id: an-empty-room-33
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 13, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-34
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 15, 0]
+- id: an-empty-room-35
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 16, 0]
+- id: an-empty-room-36
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 17, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-37
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [4, 18, 0]
+- id: an-empty-room-38
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [5, 3, 0]
+  npcs:
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-39
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [5, 11, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-40
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [5, 17, 0]
+- id: an-empty-room-41
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [5, 18, 0]
+  npcs: 
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-42
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [6, 3, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-43
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [6, 10, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-44
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [6, 11, 0]
+- id: an-empty-room-45
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [6, 17, 0]
+- id: an-empty-room-46
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [7, 3, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-47
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [7, 4, 0]
+- id: an-empty-room-48
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [7, 10, 0]
+- id: an-empty-room-49
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [7, 17, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-50
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [8, 3, 0]
+- id: an-empty-room-51
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [8, 4, 0]
+- id: an-empty-room-52
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [8, 9, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-53
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [8, 10, 0]
+- id: an-empty-room-54
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [8, 11, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-55
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [8, 17, 0]
+- id: an-empty-room-56
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [9, 3, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-57
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [9, 4, 0]
+- id: an-empty-room-58
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [9, 9, 0]
+- id: an-empty-room-59
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [9, 10, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-60
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [9, 11, 0]
+- id: an-empty-room-61
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [9, 17, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-62
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 3, 0]
+  npcs:
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-63
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 9, 0]
+- id: an-empty-room-64
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 10, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-65
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 11, 0]
+- id: an-empty-room-66
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 15, 0]
+- id: an-empty-room-67
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 16, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-68
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 17, 0]
+- id: an-empty-room-69
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [10, 18, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-70
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [11, 3, 0]
+- id: an-empty-room-71
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [11, 15, 0]
+- id: an-empty-room-72
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [11, 16, 0]
+- id: an-empty-room-73
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [11, 17, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-74
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [11, 18, 0]
+- id: an-empty-room-75
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [12, 3, 0]
+  npcs:
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-76
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [12, 15, 0]
+- id: an-empty-room-77
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [12, 16, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-78
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [12, 17, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-79
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [12, 18, 0]
+- id: an-empty-room-80
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [13, 2, 0]
+- id: an-empty-room-81
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [13, 3, 0]
+  npcs:
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-82
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [13, 4, 0]
+- id: an-empty-room-83
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [13, 16, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-84
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 2, 0]
+- id: an-empty-room-85
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 3, 0]
+- id: an-empty-room-86
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 4, 0]
+- id: an-empty-room-87
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 9, 0]
+- id: an-empty-room-88
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 10, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-89
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 11, 0]
+- id: an-empty-room-90
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 12, 0]
+- id: an-empty-room-91
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 13, 0]
+- id: an-empty-room-92
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 16, 0]
+- id: an-empty-room-93
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 17, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-94
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [14, 18, 0]
+- id: an-empty-room-95
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 2, 0]
+- id: an-empty-room-96
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 3, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-97
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 4, 0]
+- id: an-empty-room-98
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 6, 0]
+- id: an-empty-room-99
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 7, 0]
+- id: an-empty-room-100
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 8, 0]
+- id: an-empty-room-101
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 9, 0]
+- id: an-empty-room-102
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 10, 0]
+- id: an-empty-room-103
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 11, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-104
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 12, 0]
+- id: an-empty-room-105
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 13, 0]
+- id: an-empty-room-106
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 14, 0]
+- id: an-empty-room-107
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 15, 0]
+- id: an-empty-room-108
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [15, 18, 0]
+- id: an-empty-room-109
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 2, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-110
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 3, 0]
+- id: an-empty-room-111
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 4, 0]
+- id: an-empty-room-112
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 5, 0]
+  npcs:
+    - {id: 'aindale:horned-toad', respawnChance: 15, maxLoad: 1}
+- id: an-empty-room-113
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 6, 0]
+- id: an-empty-room-114
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 9, 0]
+- id: an-empty-room-115
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 10, 0]
+- id: an-empty-room-116
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 11, 0]
+- id: an-empty-room-117
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 12, 0]
+- id: an-empty-room-118
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 13, 0]
+- id: an-empty-room-119
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 15, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-120
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 17, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 10, maxLoad: 2}
+- id: an-empty-room-121
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [16, 18, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 10, maxLoad: 3}
+- id: an-empty-room-122
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 2, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 5, maxLoad: 2}
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-123
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 3, 0]
+- id: an-empty-room-124
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 4, 0]
+- id: an-empty-room-125
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 9, 0]
+- id: an-empty-room-126
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 10, 0]
+  npcs:
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-127
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 11, 0]
+- id: an-empty-room-128
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 12, 0]
+- id: an-empty-room-129
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 13, 0]
+  npcs:
+    - {id: 'aindale:black-mole', respawnChance: 15, maxLoad: 3}
+- id: an-empty-room-130
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 15, 0]
+- id: an-empty-room-131
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 16, 0]
+- id: an-empty-room-132
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 17, 0]
+  npcs:
+    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+- id: an-empty-room-133
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [17, 18, 0]
+- id: an-empty-room-134
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [18, 17, 0]
+- id: an-empty-room-135
+  title: An Empty Room
+  description: There is nothing particularly interesting about this place.
+  coordinates: [18, 18, 0]
