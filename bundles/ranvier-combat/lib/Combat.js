@@ -60,6 +60,10 @@ class Combat {
     }
 
     Combat.makeAttack(attacker, target);
+    if (target.getAttribute('health') <= 0) {
+        Combat.handleDeath(state, target);
+    } 
+
     return true;
   }
 

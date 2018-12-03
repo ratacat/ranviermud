@@ -91,7 +91,7 @@ class Damage {
        * @event Character#damaged
        * @param {Damage} damage
        */
-    target.emit('damaged', this);
+      target.emit('damaged', this);
   }
 }
 

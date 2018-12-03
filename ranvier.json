@@ -18,7 +18,8 @@
     "ranvier-vendors",
     "ranvier-npc-behaviors",
     "ranvier-bug-report",
-    "debug-commands"
+    "debug-commands",
+    "ranvier-auto-login"
   ],
   "maxAccountNameLength": 20,
   "minAccountNameLength": 3,
@@ -31,5 +32,5 @@
   "moveCommand": "move",
   "skillLag": 2000,
   "defaultMaxPlayerInventory": 16,
-  "maxIdleTime": 20
+  "maxIdleTime": 140
 }

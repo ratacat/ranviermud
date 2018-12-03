@@ -1,0 +1,51 @@
+{
+  "_from": "ranvier-auto-login",
+  "_id": "ranvier-auto-login@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-C7CgMsSpvDqj/Jb9NtPM/pe04BAIXnedbri9tB1UikSLRl7LHA2V+gni4QcBuqLyABlxj4v6/uZk2BbydYUVCg==",
+  "_location": "/ranvier-auto-login",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ranvier-auto-login",
+    "name": "ranvier-auto-login",
+    "escapedName": "ranvier-auto-login",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ranvier-auto-login/-/ranvier-auto-login-1.0.0.tgz",
+  "_shasum": "cf81664ea79cb136e2804cd41025abc5a695842c",
+  "_spec": "ranvier-auto-login",
+  "_where": "/Users/jared/Dev/ranviermud",
+  "author": {
+    "name": "Colin \"Vindexus\" Kierans"
+  },
+  "bugs": {
+    "url": "https://github.com/Vindexus/ranvier-auto-login/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Script for automatically logging new connections into an account for easier development.",
+  "homepage": "https://github.com/Vindexus/ranvier-auto-login#readme",
+  "keywords": [
+    "ranvier"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ranvier-auto-login",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vindexus/ranvier-auto-login.git"
+  },
+  "scripts": {
+    "addtoranvier": "node addtoranvier.js",
+    "postinstall": "echo pwd; ln -s node_modules/ranvier-auto-login bundles/ranvier-auto-login; npm run addtoranvier"
+  },
+  "version": "1.0.0"
+}

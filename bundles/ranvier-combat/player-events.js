@@ -39,7 +39,8 @@ module.exports = (srcPath) => {
           this.addPrompt('combat', _ => promptBuilder(this));
         }
 
-        B.sayAt(this, '');
+        //extra space in combat, taking it out
+        //B.sayAt(this, '');
         if (!usingWebsockets) {
           B.prompt(this);
         }
@@ -76,7 +77,7 @@ module.exports = (srcPath) => {
           buf = "You hit";
         }
 
-        buf += ` <b>${target.name}</b> for <b>${damage.finalAmount}</b> damage.`;
+        buf += ` ${adjustSyntax(target.name)} for <b>${damage.finalAmount}</b> damage!`;
 
         if (damage.critical) {
           buf += ' <red><b>(Critical)</b></red>';
@@ -105,8 +106,9 @@ module.exports = (srcPath) => {
             buf = `${this.name} hit`;
           }
 
-          buf += ` <b>${target.name}</b> for <b>${damage.finalAmount}</b> damage.`;
+          buf += ` <b>${adjustSyntax(target.name)}</b> for <b>${damage.finalAmount}</b> damage.`;
           B.sayAt(member, buf);
+
         }
       },
 
@@ -317,7 +319,7 @@ module.exports = (srcPath) => {
     }
   };
 
-  function promptBuilder(promptee) {
+  function promptBuilderOld(promptee) {
     if (!promptee.isInCombat()) {
       return '';
     }
@@ -349,4 +351,65 @@ module.exports = (srcPath) => {
 
     return buf;
   }
+
+  function promptBuilder(promptee) {
+    if (!promptee.isInCombat()) {
+      return '';
+    }
+
+    // Set up some constants for formatting the health bars
+    //const playerName = "You";
+    //const targetNameLengths = [...promptee.combatants].map(t => t.name.length);
+    //const nameWidth = Math.max(playerName.length, ...targetNameLengths);
+    //const progWidth = 60 - (nameWidth + ':  ').length;
+
+    // Set up helper functions for health-bar-building.
+    const getHealthPercentage = entity => Math.floor((entity.getAttribute('health') / entity.getMaxAttribute('health')) * 100);
+    /*const formatProgressBar = (name, progress, entity) => {
+      const pad = B.line(nameWidth - name.length, ' ');
+      return `<b>${name}${pad}</b>: ${progress} <b>${entity.getAttribute('health')}/${entity.getMaxAttribute('health')}</b>`;
+    }*/
+    let buf = '';
+
+    // Build and add target health bars.
+    for (const target of promptee.combatants) {
+      buf = `${target.name}: `;
+      let currentPerc = Math.floor((target.getAttribute('health') / target.getMaxAttribute('health')) * 100);
+      if (currentPerc == 100) {
+        buf += `<green>Excellent</green>`;
+      } else if (currentPerc >= 86 && currentPerc < 100) {
+        buf += `<yellow>Some scratches</yellow>`;
+      } else if (currentPerc >= 72 && currentPerc < 86) {
+        buf += `<yellow><b>Small wounds</b></yellow>`;
+      } else if (currentPerc >= 58 && currentPerc < 72) {
+        buf += `<magenta><b>Few wounds</b></magenta>`;
+      } else if (currentPerc >= 44 && currentPerc < 58) {
+        buf += `<magenta>Nasty wounds</magenta>`;
+      } else if (currentPerc >= 30 && currentPerc < 44) {
+        buf += `<red><b>Pretty hurt</b></red>`;
+      } else if (currentPerc >= 16 && currentPerc < 30) {
+        buf += `<red>Awful</red>`;
+      } else if (currentPerc >= .1 && currentPerc < 16 ) {
+        buf += `<black><b>Nearly dead</b></black>`;
+      }
+      //let progress = B.progress(progWidth, currentPerc, "red");
+      //buf += `\r\n${formatProgressBar(target.name, progress, target)}`;
+    }
+    
+    return buf;
+  }
+
+function adjustSyntax (name) {
+  // check to see if name starts with a + space
+  if (name.indexOf('a ') > -1 ) {
+    // replace a with the
+    let newName = '<white>' + name.replace('a ','the ') + '</white>';
+    return newName;
+  } 
+}
+
+function getHitSyntax (attacker, target, damage){
+
+}
+
 };

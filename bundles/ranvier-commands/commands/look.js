@@ -76,7 +76,7 @@ module.exports = (srcPath, bundlePath) => {
     const room = player.room;
 
     if (player.room.coordinates) {
-      B.sayAt(player, '<yellow><b>' + sprintf('%-65s', room.title) + '</b></yellow>');
+      B.sayAt(player, sprintf('%-85s', room.title) + '<red>[' + room.entityReference) + ']</red>';
       //B.sayAt(player, B.line(15));
     } else {
       const [ line1, line2, line3 ] = getCompass(player);

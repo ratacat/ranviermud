@@ -41,14 +41,14 @@ module.exports = (srcPath) => {
        * @param {number} amount Exp gained
        */
       experience: state => function (amount) {
-        Broadcast.sayAt(this, `<blue>You gained <bold>${amount}</bold> experience!</blue>`);
+        Broadcast.sayAt(this, `<blue><b>You gained some experience!</b></blue>`);
 
         const totalTnl = LevelUtil.expToLevel(this.level + 1);
 
         // level up, currently wraps experience if they gain more than needed for multiple levels
         if (this.experience + amount > totalTnl) {
-          Broadcast.sayAt(this, '                                   <bold><blue>!Level Up!</blue></bold>');
-          Broadcast.sayAt(this, Broadcast.progress(80, 100, "blue"));
+         // Broadcast.sayAt(this, '                                   <bold><blue>!Level Up!</blue></bold>');
+          //Broadcast.sayAt(this, Broadcast.progress(80, 100, "blue"));
 
           let nextTnl = totalTnl;
           while (this.experience + amount > nextTnl) {

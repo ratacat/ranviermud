@@ -152,12 +152,12 @@
     ranvier-wander:
       interval: 50
     combat: true
-- id: horned-toad
-  keywords: ["horned","toad"]
+- id: speckled-beetle
+  keywords: ["speckled","beetle"]
   level: 4
-  name: "a horned toad"
+  name: "a <black><b><white>sp</white>eck<white>le</white>d beetle</b></black>"
   description: >-
-    This toad is very muddy and covered in warts.
+    She is oblong shaped and very focused on a particular flower.
   attributes:
     health: 75
     strength: 12
@@ -165,12 +165,12 @@
     combat: true
     ranvier-wander:
       interval: 50
-- id: black-mole
-  keywords: ["black","mole"]
+- id: scaly-worm
+  keywords: ["scaly","worm"]
   level: 6
-  name: "<black><bold>a black mole</bold></black>"
+  name: "a <bold><cyan>scaly</cyan><yellow> worm</bold></yellow>"
   description: >-
-    This mole is covered in soft looking fur, oh my...the claws!
+    He is covered in furry scales, maybe good fiber?
   attributes:
     health: 110
     strength: 17

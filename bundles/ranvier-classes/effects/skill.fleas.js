@@ -31,7 +31,7 @@ module.exports = srcPath => {
 
       updateTick: function () {
         const amount = Math.round(this.state.totalDamage / Math.round((this.config.duration / 1000) / this.config.tickInterval));
-        Broadcast.sayAt(this.target.room,`<bold><black>${this.target.name} writhes in <green>discomfort</green> sending fleas in all directions!!!</black></bold>[${amount}]`);
+        Broadcast.sayAt(this.target.room,`<bold><black>${this.target.name} writhes in <green>discomfort</green> sending fleas in all directions!!!</black></bold>`);
         const damage = new Damage({
           attribute: "health",
           amount,

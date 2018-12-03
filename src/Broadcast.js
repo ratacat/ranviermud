@@ -123,10 +123,13 @@ class Broadcast {
   static prompt(player, extra, wrapWidth, useColor) {
     player.socket._prompted = false;
     Broadcast.at(player, '\r\n' + player.interpolatePrompt(player.prompt, extra) + ' ', wrapWidth, useColor);
+    
+    /*
     let needsNewline = player.extraPrompts.size > 0;
     if (needsNewline) {
       Broadcast.sayAt(player);
     }
+    */
 
     for (const [id, extraPrompt] of player.extraPrompts) {
       Broadcast.sayAt(player, extraPrompt.renderer(), wrapWidth, useColor);
@@ -135,9 +138,10 @@ class Broadcast {
       }
     }
 
-    if (needsNewline) {
+   /* if (needsNewline) {
       Broadcast.at(player, '> ');
     }
+   */
 
     player.socket._prompted = true;
     if (player.socket.writable) {
