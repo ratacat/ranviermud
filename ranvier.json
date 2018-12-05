@@ -19,7 +19,8 @@
     "ranvier-npc-behaviors",
     "ranvier-bug-report",
     "debug-commands",
-    "ranvier-auto-login"
+    "ranvier-auto-login",
+    "vitalia-olc"
   ],
   "maxAccountNameLength": 20,
   "minAccountNameLength": 3,
@@ -28,7 +29,7 @@
   "maxCharacters": 3,
   "allowMultiplay": false,
   "reportToAdmins": false,
-  "startingRoom": "limbo:white",
+  "startingRoom": "KulwycksGrove:a-wandering-path",
   "moveCommand": "move",
   "skillLag": 2000,
   "defaultMaxPlayerInventory": 16,

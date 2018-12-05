@@ -1,0 +1,23 @@
+---
+- id: selfdefense101
+  title: Self Defense 101
+  level: 2
+  requires: [ 'KulwycksGrove:a-wandering-path' ]
+  autoComplete: true
+  description: |-
+    A voice whispers to you: It would be wise to practice protecting yourself. There are a number of training dummies in this area that, while not pushovers, will not be too difficult.
+    - Use '<white>kill worm</white>' to start combat against the scaly worm
+    - Once it's dead any loot it drops will be in its corpse on the ground. You can use '<white>look in corpse</white>' to check again or '<white>loot corpse</white>' to retrieve all your loot.
+  completionMessage: |-
+    <b><cyan>Hint: You can get the loot from enemies with '<white>get <item> corpse</white>' but be quick about it, the corpse will decay after some time.</cyan>
+  goals:
+    - type: KillGoal
+      config:
+        title: Kill a Training Dummy
+        npc: 'KulwycksGrove:scaly-worm'
+        count: 1
+  rewards:
+    - type: ExperienceReward
+      config:
+        amount: 5
+        leveledTo: QUEST

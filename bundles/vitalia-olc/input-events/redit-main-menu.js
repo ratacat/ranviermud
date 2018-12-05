@@ -25,16 +25,16 @@ module.exports = (srcPath) => {
 
       let options = [];
       if (!room.metadata) room.metadata = {};
-      options.push({ display: `-- Sala [<cyan>${area.name}:${room.id}</cyan>]` });
+      options.push({ display: `-- Room [<cyan>${area.name}:${room.id}</cyan>]` });
 
       options.push({
-        display: `Título : <cyan>${room.title}</cyan>`,
+        display: `Title : <cyan>${room.title}</cyan>`,
         onSelect: () => {
-          write('Entre com o título: ');
+          write('Enter a Title: ');
           socket.once('data', title => {
             title = title.toString().trim();
             if (title == '') {
-              args.errorMsg = 'O título é obrigatório!';
+              args.errorMsg = 'Title Required!';
             } else {
               room.title = title;
             }
@@ -44,9 +44,9 @@ module.exports = (srcPath) => {
       });
 
       options.push({
-        display: `Descrição : <yellow>${room.description}</yellow>`,
+        display: `Description : <yellow>${room.description}</yellow>`,
         onSelect: () => {
-          write('Entre com a descrição (Sem quebras de linha): ');
+          write('Enter the description(no line breaks): ');
           socket.once('data', description => {
             room.description = description.toString().trim();
             return socket.emit('redit-main-menu', socket, room, args);
@@ -59,7 +59,7 @@ module.exports = (srcPath) => {
         extraDescs += extraDescs != '' ? ',' + desc : desc;
       }
       options.push({
-        display: `Descrições extras : <yellow>${extraDescs != '' ? extraDescs : '<Nenhuma>'}</yellow>`,
+        display: `Extra Descriptions : <yellow>${extraDescs != '' ? extraDescs : '<Nonea>'}</yellow>`,
         onSelect: () => {
           return socket.emit('redit-extradesc-menu', socket, room, args);
         },
@@ -67,20 +67,21 @@ module.exports = (srcPath) => {
 
 
       options.push({
-        display: `Terreno : <yellow>[${room.metadata.terrain || 'Indefinido'}]</yellow>`,
+        display: `Terrain : <yellow>[${room.metadata.terrain || 'Undefined'}]</yellow>`,
         onSelect: () => {
           return socket.emit('redit-terrain-menu', socket, room, args);
         },
       });
       
       // Flags
+      /*
       if (typeof room.metadata.roomFlags == 'undefined') {
         room.metadata.roomFlags = [];
       }
 
       let actualFlags = room.metadata.roomFlags.join(' ');
       if (actualFlags == '') {
-        actualFlags = '<Nenhuma>';
+        actualFlags = '<Nonea>';
       }
 
       options.push({
@@ -89,28 +90,29 @@ module.exports = (srcPath) => {
           return socket.emit('redit-flags-menu', socket, room, args);
         },
       });
+      */
 
       options.push({
-        display: `Behaviors : <yellow>${room.behaviors ? JSON.stringify(room.behaviors) : '<Nenhum>'}</yellow>`,
+        display: `Behaviors : <yellow>${room.behaviors ? JSON.stringify(room.behaviors) : '<None>'}</yellow>`,
         onSelect: () => {
-          args.errorMsg = 'Ainda em construção!';
+          args.errorMsg = 'Still under construction.';
           //return socket.emit('redit-behaviors-menu', socket, room, args);
           return socket.emit('redit-main-menu', socket, room, args);
         },
       });
 
       options.push({
-        display: `Script : <yellow>${room.script || '<Nenhum>'}</yellow>`,
+        display: `Script : <yellow>${room.script || '<None>'}</yellow>`,
         onSelect: () => {
           // Validacao da existencia do script?
-          write('Entre com o script: ');
+          write('Enter the script: ');
           socket.once('data', script => {
             script = script.toString().trim();
 
             if (script != '') {
               const scriptPath = areaPath + '/scripts/rooms/' + script + '.js';
               if (!fs.existsSync(scriptPath)) {
-                args.errorMsg = 'Script inexistente: ' + area.name + '/scripts/rooms/' + script + '.js';
+                args.errorMsg = 'Script doesnt exist: ' + area.name + '/scripts/rooms/' + script + '.js';
                 return socket.emit('redit-main-menu', socket, room, args);
               }
             }
@@ -122,28 +124,28 @@ module.exports = (srcPath) => {
       });
 
       options.push({
-        display: `Coordenadas : <cyan>${room.coordinates ? JSON.stringify(room.coordinates) : '<N/A>'}</cyan>`,
+        display: `Coordinates : <cyan>${room.coordinates ? JSON.stringify(room.coordinates) : '<N/A>'}</cyan>`,
         onSelect: () => {
-          say('Exemplo de coordenadas x y z: <green>1 0 -2</green>')
-          write('Entre com as coordenadas separadas por espaço, sendo x y z: ');
+          say('Exemplo de Coordinates x y z: <green>1 0 -2</green>')
+          write('Entre com as Coordinates separadas por espaço, sendo x y z: ');
           socket.once('data', coordinates => {
             const xyz = coordinates.toString().trim().split(' ');
             const x = parseInt(xyz[0]);
             const y = parseInt(xyz[1]);
             const z = parseInt(xyz[2]);
             if (isNaN(x) || isNaN(y) || isNaN(z)) {
-              args.errorMsg = 'Coordenadas inválidas. Tem que ser X Y Z separadas por espaço.';
+              args.errorMsg = 'Coordinates inválidas. Tem que ser X Y Z separadas por espaço.';
               return socket.emit('redit-main-menu', socket, room, args);
             }
             room.coordinates = [x, y, z];
-            say('<green>Para as coordenadas fazerem efeito, é preciso resetar o mud.</green>');
+            say('<green>Para as Coordinates fazerem efeito, é preciso resetar o mud.</green>');
             return socket.emit('redit-main-menu', socket, room, args);
           });
         },
       });
 
       options.push({
-        display: 'Saídas da sala :',
+        display: 'Room Exits :',
         onSelect: () => {
           return socket.emit('redit-exits-menu', socket, room, args);
         },
@@ -161,7 +163,7 @@ module.exports = (srcPath) => {
       }
 
       options.push({
-        display: 'Portas da sala :',
+        display: 'Room Doors :',
         onSelect: () => {
           return socket.emit('redit-doors-menu', socket, room, args);
         },
@@ -177,7 +179,7 @@ module.exports = (srcPath) => {
       }
 
       options.push({
-        display: 'Itens na sala :',
+        display: 'Items in Room :',
         onSelect: () => {
           return socket.emit('redit-items-menu', socket, room, args);
         },
@@ -199,7 +201,7 @@ module.exports = (srcPath) => {
       }
 
       options.push({
-        display: 'Mobs na sala :',
+        display: 'Mobs in Room :',
         onSelect: () => {
           return socket.emit('redit-npcs-menu', socket, room, args);
         },
@@ -223,7 +225,7 @@ module.exports = (srcPath) => {
 
       let quit = [];
       quit.push({
-        display: `Sair`,
+        display: `Leave Menu`,
         onSelect: () => {
           write('Deseja salvar as alterações na sala? [<b>s/N</b>]: ');
           socket.once('data', confirmation => {
@@ -280,7 +282,7 @@ module.exports = (srcPath) => {
         say(`<red>${args.errorMsg}</red>`);
         args.errorMsg = '';
       }
-      write('Entre com a opção : ');
+      write('Enter your choice : ');
 
       socket.once('data', choice => {
         choice = choice.toString().trim().toLowerCase();

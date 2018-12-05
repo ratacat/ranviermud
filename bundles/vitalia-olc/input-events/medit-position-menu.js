@@ -9,7 +9,7 @@ const sprintf = require('sprintf-js').sprintf;
 module.exports = (srcPath) => {
   const EventUtil = require(srcPath + 'EventUtil');
   const Logger    = require(srcPath + 'Logger');
-  const CharPositions = require(srcPath + 'CharPositions');
+  //const CharPositions = require(srcPath + 'CharPositions');
 
   return {
     event: state => (socket, mob, args) => {

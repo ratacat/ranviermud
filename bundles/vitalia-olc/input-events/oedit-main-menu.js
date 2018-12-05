@@ -11,8 +11,8 @@ module.exports = (srcPath) => {
   const EventUtil = require(srcPath + 'EventUtil');
   const Logger    = require(srcPath + 'Logger');
   const Data      = require(srcPath + 'Data');
-  const ItemTypeProperties = require(srcPath + 'ItemTypeProperties');
-  const PlayerConditions = require(srcPath + 'PlayerConditions');
+  //const ItemTypeProperties = require(srcPath + 'ItemTypeProperties');
+ // const PlayerConditions = require(srcPath + 'PlayerConditions');
 
   return {
     event: state => (socket, obj, args) => {
@@ -47,7 +47,7 @@ module.exports = (srcPath) => {
       });
 
       options.push({
-        display: `Atalhos : <yellow>${typeof obj.keywords == 'undefined' || obj.keywords == '' ? '<red>Nenhum!!!</red>': obj.keywords}</yellow>`,
+        display: `Atalhos : <yellow>${typeof obj.keywords == 'undefined' || obj.keywords == '' ? '<red>None!!!</red>': obj.keywords}</yellow>`,
         onSelect: () => {
           write('Entre com TODOS os atalhos (Separadas por virgula, sem espaço): ');
           socket.once('data', keywords => {
@@ -84,7 +84,7 @@ module.exports = (srcPath) => {
         extraDescs += extraDescs != '' ? ',' + desc : desc;
       }
       options.push({
-        display: `Descrições extras : <yellow>${extraDescs != '' ? extraDescs : '<Nenhuma>'}</yellow>`,
+        display: `Descrições extras : <yellow>${extraDescs != '' ? extraDescs : '<Nonea>'}</yellow>`,
         onSelect: () => {
           return socket.emit('oedit-extradesc-menu', socket, obj, args);
         },
@@ -147,7 +147,7 @@ module.exports = (srcPath) => {
           return socket.emit('oedit-type-menu', socket, obj, args);
         },
       });
-
+/*
       // Mostrar as propriedades atuais do tipo
       let printedTitle = 0;
       for (let att in ItemTypeProperties[obj.type]) {
@@ -163,7 +163,7 @@ module.exports = (srcPath) => {
         options.push({ display: sprintf("     -> %-20s : <yellow>%s</yellow>", ItemTypeProperties[obj.type][att].text, obj.properties[ItemTypeProperties[obj.type][att].name]) });
       }
       
-
+*/
       options.push({
         display: `Valor : <yellow>${obj.metadata.value || 0}</yellow>`,
         onSelect: () => {
@@ -198,7 +198,7 @@ module.exports = (srcPath) => {
 
       let actualFlags = obj.metadata.flags.join(' ');
       if (actualFlags == '') {
-        actualFlags = '<Nenhuma>';
+        actualFlags = '<Nonea>';
       }
 
       options.push({
@@ -215,7 +215,7 @@ module.exports = (srcPath) => {
 
       let actualAffects = obj.metadata.affects.join(' ');
       if (actualAffects == '') {
-        actualAffects = '<Nenhuma>';
+        actualAffects = '<Nonea>';
       }
 
       options.push({
@@ -236,7 +236,7 @@ module.exports = (srcPath) => {
       }
 
       options.push({
-        display: `Behaviors : <yellow>${obj.behaviors ? JSON.stringify(obj.behaviors) : '<Nenhum>'}</yellow>`,
+        display: `Behaviors : <yellow>${obj.behaviors ? JSON.stringify(obj.behaviors) : '<None>'}</yellow>`,
         onSelect: () => {
           args.errorMsg = 'Ainda em construção!';
           //return socket.emit('oedit-behaviors-menu', socket, obj, args);
@@ -246,7 +246,7 @@ module.exports = (srcPath) => {
 
 
       options.push({
-        display: `Script : <yellow>${obj.script || '<Nenhum>'}</yellow>`,
+        display: `Script : <yellow>${obj.script || '<None>'}</yellow>`,
         onSelect: () => {
           // Validacao da existencia do script?
           write('Entre com o script: ');
@@ -268,7 +268,7 @@ module.exports = (srcPath) => {
       });
 
       options.push({
-        display: `Slot : <yellow>[${obj.metadata.slot ? obj.metadata.slot.join(',').toUpperCase() : '<Nenhum>'}]</yellow>`,
+        display: `Slot : <yellow>[${obj.metadata.slot ? obj.metadata.slot.join(',').toUpperCase() : '<None>'}]</yellow>`,
         onSelect: () => {
           return socket.emit('oedit-slots-menu', socket, obj, args);
         },
@@ -306,7 +306,7 @@ module.exports = (srcPath) => {
 
       let quit = [];
       quit.push({
-        display: `Sair`,
+        display: `Leave Menu`,
         onSelect: () => {
           write('Deseja salvar as alterações no objeto? [<b>s/N</b>]: ');
           socket.once('data', confirmation => {
@@ -357,7 +357,7 @@ module.exports = (srcPath) => {
         say(`<red>${args.errorMsg}</red>`);
         args.errorMsg = '';
       }
-      write('Entre com a opção : ');
+      write('Enter your choice : ');
 
       socket.once('data', choice => {
         choice = choice.toString().trim().toLowerCase();

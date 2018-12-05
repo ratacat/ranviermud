@@ -23,81 +23,115 @@
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [1, 17, 0]
-  exits:
-    - direction: south
-      roomId: "limbo:wallys"
+  npcs:
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:fierce-shrew', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 100, maxLoad: 3}
 - id: a-wandering-path-2
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [1, 18, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
 - id: amongst-the-ferns
   title: Amongst the Ferns
   description: <black><bold>They're very large, and dripping <green></bold>moisture</green><bold>, the earth beneath your feet is black and rich. </black></bold>
   coordinates: [2, 2, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-3
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 3, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-4
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
 - id: deep-in-the-ferns-5
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 9, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-6
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 10, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
 - id: deep-in-the-ferns-7
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 11, 0]
+  npcs:
+  - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-8
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 12, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-9
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 13, 0]
+  npcs:
+  - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+  - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: under-the-ferns
   title: <green><b>Under the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [2, 17, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: a-wandering-path-3
   title: A Wandering Path
   description: The tree trunks reach really far up into the sky. The path keeps going to the east.
   coordinates: [2, 18, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-12
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 2, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-13
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 3, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-14
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 4, 0]
+  npcs:
+  - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+  - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
 - id: deep-in-the-ferns-15
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -107,44 +141,60 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 6, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
 - id: deep-in-the-ferns-17
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 7, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:fierce-shrew', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-18
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 8, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-19
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 9, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-20
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 10, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-21
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 11, 0]
+  npcs: 
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-22
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 12, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-23
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 13, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-24
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -154,14 +204,15 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 15, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: under-the-ferns-2
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [3, 17, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: a-wandering-path-27
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
@@ -175,30 +226,41 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [4, 9, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-30
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [4, 10, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-31
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [4, 11, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-32
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [4, 12, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-33
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [4, 13, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-34
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [4, 15, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-35
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -208,7 +270,8 @@
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [4, 17, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: a-wandering-path-37
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
@@ -218,14 +281,16 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [5, 3, 0]
   npcs:
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-39
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [5, 11, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: a-wandering-path-40
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
@@ -235,98 +300,133 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [5, 18, 0]
   npcs: 
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-42
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [6, 3, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
 - id: deep-in-the-ferns-43
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [6, 10, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-44
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [6, 11, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
 - id: a-wandering-path-45
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [6, 17, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
+    - {id: 'KulwycksGrove:fierce-shrew', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-46
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [7, 3, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-47
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [7, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-48
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [7, 10, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: a-wandering-path-49
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [7, 17, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-50
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [8, 3, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-51
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [8, 4, 0]
+  npcs: 
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-52
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [8, 9, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-53
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [8, 10, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-54
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [8, 11, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: a-wandering-path-55
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [8, 17, 0]
+  npcs:
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-56
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [9, 3, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-57
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [9, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-58
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [9, 9, 0]
+  npcs: 
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-59
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [9, 10, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-60
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -336,13 +436,15 @@
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [9, 17, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-62
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [10, 3, 0]
   npcs:
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-63
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -352,11 +454,20 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [10, 10, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:fierce-shrew', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-65
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [10, 11, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-66
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -366,17 +477,24 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [10, 16, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: a-wandering-path-68
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [10, 17, 0]
+  npcs:
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-69
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [10, 18, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-70
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -385,6 +503,10 @@
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [11, 15, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 5}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-72
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -394,17 +516,21 @@
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [11, 17, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-74
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [11, 18, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-75
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [12, 3, 0]
   npcs:
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-76
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -414,17 +540,19 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [12, 16, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-78
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [12, 17, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-79
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [12, 18, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-80
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -434,17 +562,19 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [13, 3, 0]
   npcs:
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-82
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [13, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-83
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [13, 16, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-84
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -453,10 +583,14 @@
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 3, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-86
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-87
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -466,12 +600,15 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 10, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-89
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 11, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-90
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -480,38 +617,60 @@
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 13, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-92
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 16, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 4}
 - id: deep-in-the-ferns-93
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 17, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:fierce-shrew', respawnChance: 15, maxLoad: 3}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-94
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [14, 18, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-95
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 2, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-96
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 3, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-97
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-98
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 6, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-99
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -520,36 +679,53 @@
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 8, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:grey-mouse', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-101
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 9, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-102
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 10, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-103
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 11, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-104
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 12, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-105
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 13, 0]
+  npcs:
+    - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-106
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 14, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-107
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [15, 15, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-108
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -559,21 +735,27 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 2, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-110
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 3, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-111
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-112
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 5, 0]
   npcs:
-    - {id: 'aindale:scaly-worm', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:large-earthworm', respawnChance: 15, maxLoad: 1}
 - id: deep-in-the-ferns-113
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -582,65 +764,86 @@
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 9, 0]
+  npcs:
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-115
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 10, 0]
+  npcs:
+    - {id: 'KulwycksGrove:soft-eyed-doe', respawnChance: 3, maxLoad: 1}
 - id: deep-in-the-ferns-116
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 11, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-117
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 12, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:baby-fawn', respawnChance: 15, maxLoad: 4}
 - id: deep-in-the-ferns-118
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 13, 0]
+  npcs:
+    - {id: 'KulwycksGrove:sturdy-badger',respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-119
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 15, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-120
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 17, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 10, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 10, maxLoad: 2}
 - id: deep-in-the-ferns-121
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [16, 18, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 10, maxLoad: 3}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 10, maxLoad: 3}
 - id: deep-in-the-ferns-122
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 2, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 5, maxLoad: 2}
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
 - id: deep-in-the-ferns-123
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 3, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:fierce-shrew', respawnChance: 15, maxLoad: 2}
 - id: deep-in-the-ferns-124
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 4, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
 - id: deep-in-the-ferns-125
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 9, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-126
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 10, 0]
   npcs:
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-127
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
@@ -654,30 +857,48 @@
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 13, 0]
   npcs:
-    - {id: 'aindale:speckled-beetle', respawnChance: 15, maxLoad: 3}
+    - {id: 'KulwycksGrove:speckled-beetle', respawnChance: 15, maxLoad: 3}
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-130
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 15, 0]
+  npcs:
+    - {id: 'KulwycksGrove:pink-centipede', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-131
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 16, 0]
+  npcs:
+    - {id: 'KulwycksGrove:striped-warbler', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
+    - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-132
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 17, 0]
   npcs:
-    - {id: 'aindale:cunning-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:chubby-weasel', respawnChance: 5, maxLoad: 2}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-133
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [17, 18, 0]
+  npcs:
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-134
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [18, 17, 0]
+  npcs:
+    - {id: 'KulwycksGrove:lean-red-squirrel', respawnChance: 9, maxLoad: 2}
+    - {id: 'KulwycksGrove:fierce-shrew', respawnChance: 15, maxLoad: 1}
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}
 - id: deep-in-the-ferns-135
   title: <green><b>Deep in the Ferns</b><green>
   description: <green>Massive green ferns stretch far above you. A soft <cyan>breeze</cyan> carries a sniff of decomposing earth. <black><b>The soil is pungent and dark</b></black>, filled with many <yellow>di<b>f</b>f<green><b>e</green>ren</b>t</yellow> <red>b<black><b>u</b></black>gs</red> and fungus. A <cyan><b>wet mist clouds</b></cyan> your view, the ground is a intricate <yellow>tangle of enormous roots</yellow> and fallen trees. </green>
   coordinates: [18, 18, 0]
+  npcs:
+    - {id: 'KulwycksGrove:curious-jay', respawnChance: 7, maxLoad: 1}

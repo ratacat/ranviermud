@@ -16,7 +16,7 @@ module.exports = (srcPath) => {
       const write    = EventUtil.genWrite(socket);
 
       let options = [];
-      options.push({ display: '-- Saídas da sala' });
+      options.push({ display: '-- Room Exits' });
 
       const directions = [
         'north'     ,
@@ -83,7 +83,7 @@ module.exports = (srcPath) => {
         say(`<red>${args.errorMsg}</red>`);
         args.errorMsg = '';
       }
-      write('Entre com a opção : ');
+      write('Enter your choice : ');
 
       socket.once('data', choice => {
         choice = choice.toString().trim().toLowerCase();

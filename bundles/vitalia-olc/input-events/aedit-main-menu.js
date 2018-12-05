@@ -108,7 +108,7 @@ module.exports = (srcPath) => {
 
       let actualFlags = area.info.flags.join(' ');
       if (actualFlags == '') {
-        actualFlags = '<Nenhuma>';
+        actualFlags = '<Nonea>';
       }
 
       options.push({
@@ -120,7 +120,7 @@ module.exports = (srcPath) => {
 
       let quit = [];
       quit.push({
-        display: `Sair`,
+        display: `Leave Menu`,
         onSelect: () => {
           write('Deseja salvar as alterações na sala? [<b>s/N</b>]: ');
           socket.once('data', confirmation => {
@@ -223,7 +223,7 @@ module.exports = (srcPath) => {
         say(`<red>${args.errorMsg}</red>`);
         args.errorMsg = '';
       }
-      write('Entre com a opção : ');
+      write('Enter your choice : ');
 
       socket.once('data', choice => {
         choice = choice.toString().trim().toLowerCase();

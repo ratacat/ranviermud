@@ -66,7 +66,7 @@ module.exports = (srcPath) => {
           say('A mensagem aparece depois do nome do player. Exemplo de mensagem:');
           say('"desaparece na escuridão."');
           say('Produzirá: Fulano desaparece na escuridão.');
-          write(`Qual mensagem após o nome do player ao sair da sala? `);
+          write(`Qual mensagem após o nome do player ao Leave Menu da sala? `);
           socket.once('data', msg => {
             msg = msg.toString().trim();
             if (msg == '') {
@@ -115,7 +115,7 @@ module.exports = (srcPath) => {
         args.errorMsg = '';
       }
 
-      write('Entre com a opção : ');
+      write('Enter your choice : ');
 
       socket.once('data', choice => {
         choice = choice.toString().trim().toLowerCase();

@@ -31,6 +31,11 @@ module.exports = (srcPath) => {
 
         if (!hadActions) {
           return;
+       /* } else {
+          // bundle rounds into 3.5s batches before showing prompt
+          if (!this.combatData.timedRoundStarted) {
+              this.combatData.timedRoundStarted = Date.now();
+          } */
         }
 
         const usingWebsockets = this.socket instanceof WebsocketStream;
@@ -42,7 +47,11 @@ module.exports = (srcPath) => {
         //extra space in combat, taking it out
         //B.sayAt(this, '');
         if (!usingWebsockets) {
-          B.prompt(this);
+         // let elapsed = Date.now() - this.combatData.timedRoundStarted;
+         // if (elapsed > 3500 ) {
+         //   delete this.combatData.timedRoundStarted;
+            B.prompt(this);
+         // }
         }
       },
 
@@ -403,7 +412,7 @@ function adjustSyntax (name) {
   // check to see if name starts with a + space
   if (name.indexOf('a ') > -1 ) {
     // replace a with the
-    let newName = '<white>' + name.replace('a ','the ') + '</white>';
+    let newName = name.replace('a ','<white>the </white>');
     return newName;
   } 
 }

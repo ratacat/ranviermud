@@ -9,7 +9,7 @@ module.exports = (srcPath) => {
   const bundlesPath = srcPath + '../bundles/';
   const PlayerRoles = require(srcPath + 'PlayerRoles');
   const { CommandParser, InvalidCommandError, RestrictedCommandError, EndCommandLoopError } = require(srcPath + 'CommandParser');
-  const PlayerConditions = require(srcPath + 'PlayerConditions');
+  //const PlayerConditions = require(srcPath + 'PlayerConditions');
 
 
   return {
@@ -84,7 +84,7 @@ module.exports = (srcPath) => {
 
       // Todo - criar um file pra dar lock na area, e checar tbm
       player.save();
-      player.condition = PlayerConditions.BUILDING;
+     // player.condition = PlayerConditions.BUILDING;
       player.socket.emit('oedit-main-menu', player.socket, inObj, { player, areaRef, parsed, filepath, areaPath });
     }
   };

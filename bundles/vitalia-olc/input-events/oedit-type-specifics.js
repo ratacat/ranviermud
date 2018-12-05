@@ -10,8 +10,8 @@ module.exports = (srcPath) => {
   const EventUtil = require(srcPath + 'EventUtil');
   const Logger    = require(srcPath + 'Logger');
   const ItemType  = require(srcPath + 'ItemType');
-  const WeaponMessages = require(srcPath + 'WeaponMessages');
-  const LiquidType = require(srcPath + 'LiquidType');
+ // const WeaponMessages = require(srcPath + 'WeaponMessages');
+ // const LiquidType = require(srcPath + 'LiquidType');
 
   return {
     event: state => (socket, obj, args) => {
@@ -115,7 +115,7 @@ module.exports = (srcPath) => {
           }
           if (question == 1 || question == 2 || question == 3) {
             say('')
-            say(`Escolha ${question == 1 ? 'primeira' : question == 2 ? 'segunda' : 'terceira'} magia (0 para nenhuma)`);
+            say(`Escolha ${question == 1 ? 'primeira' : question == 2 ? 'segunda' : 'terceira'} magia (0 para Nonea)`);
             say(' Lista de magias');
             let i = 0;
             let spells = [];
@@ -294,6 +294,7 @@ module.exports = (srcPath) => {
               }
             });
           }
+          /*
           if (question == 3) {
             say('')
             say('Mensagem do dano da arma:');
@@ -307,7 +308,7 @@ module.exports = (srcPath) => {
               if (++i % 3 === 0) {
                 say('');
               }
-            }
+            } 
             say('');
             write('Entre com a mensagem: ');
             socket.once('data', val => {
@@ -322,7 +323,7 @@ module.exports = (srcPath) => {
                   return socket.emit('oedit-type-specifics', socket, obj, args);
               }
             });
-          }
+          } */
           if (question == 4) {
             say('')
             write('Esta arma pode ser empunhada como primária (WIELD) ? [<b>s/N</b>] ');
@@ -610,7 +611,7 @@ module.exports = (srcPath) => {
                 return socket.emit('oedit-type-specifics', socket, obj, args);
               }
             });
-          }
+          } /*
           if (question == 2) {
             say('')
             say('Tipos de líquido:')
@@ -637,7 +638,7 @@ module.exports = (srcPath) => {
                   return socket.emit('oedit-type-specifics', socket, obj, args);
               }
             });
-          }
+          } */
           if (question == 3) {
             write('O líquido está envenenado? [<b>s/N</b>]: ');
             socket.once('data', val => {

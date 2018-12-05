@@ -17,7 +17,7 @@ module.exports = (srcPath) => {
       const write    = EventUtil.genWrite(socket);
 
       let options = [];
-      options.push({ display: '<red>Ao trocar o tipo de um item que os players já tem, os itens existentes vão ficar sem nenhuma propriedade específica do <b>novo</b> tipo. Exemplo: Se alterar uma LIGHT para WEAPON, o item que os players já tem vai ficar sem dano algum, ao mudar uma WEAPON para LIGHT, o item que os players tem não vai iluminar. Os itens novos (que resetarem) vão funcionar normalmente.</red>' });
+      options.push({ display: '<red>Ao trocar o tipo de um item que os players já tem, os itens existentes vão ficar sem Nonea propriedade específica do <b>novo</b> tipo. Exemplo: Se alterar uma LIGHT para WEAPON, o item que os players já tem vai ficar sem dano algum, ao mudar uma WEAPON para LIGHT, o item que os players tem não vai iluminar. Os itens novos (que resetarem) vão funcionar normalmente.</red>' });
       options.push({ display: '-- Tipos de Item:' });
 
       let i = 0;

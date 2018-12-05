@@ -140,7 +140,7 @@
     - {id: 'limbo:wallythewonderful', respawnChance: 0}
   exits:
     - {roomId: 'limbo:white', direction: east}
-    - {roomId: 'aindale:a-wandering-path', direction: north}
+    - {roomId: 'KulwycksGrove:a-wandering-path', direction: north}
 - id: context
   title: Room Context Commands Test
   script: context

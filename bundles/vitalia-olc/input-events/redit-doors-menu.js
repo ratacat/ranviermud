@@ -16,7 +16,7 @@ module.exports = (srcPath) => {
       const write    = EventUtil.genWrite(socket);
 
       let options = [];
-      options.push({ display: '-- Portas da sala' });
+      options.push({ display: '-- Room Doors' });
       options.push({ display: 'O quê deseja fazer?' });
 
       let hasDoor = false;
@@ -39,7 +39,7 @@ module.exports = (srcPath) => {
             }
             let actualFlags = value.flags.join(' ');
             if (actualFlags == '') {
-              actualFlags = '<Nenhuma>';
+              actualFlags = '<Nonea>';
             }
             options.push({
               display: ` [<cyan>${value.name || 'uma porta'}</cyan>] [<green>${value.closed ? 'Fechada' : 'Aberta'}</green>][<green>${value.locked ? 'Trancada' : 'Destrancada'}</green>][<green>${value.lockedBy ? 'Key: <yellow>' + value.lockedBy + '</yellow>': 'Sem chave'}</green>] [<cyan>${key}</cyan>] <cyan>${roomDef.title}</cyan>\r\n Flags: ${actualFlags}`,
@@ -96,7 +96,7 @@ module.exports = (srcPath) => {
         say(`<red>${args.errorMsg}</red>`);
         args.errorMsg = '';
       }
-      write('Entre com a opção : ');
+      write('Enter your choice : ');
 
       socket.once('data', choice => {
         choice = choice.toString().trim().toLowerCase();

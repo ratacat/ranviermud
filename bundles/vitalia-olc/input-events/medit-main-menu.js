@@ -11,9 +11,9 @@ module.exports = (srcPath) => {
   const EventUtil = require(srcPath + 'EventUtil');
   const Logger    = require(srcPath + 'Logger');
   const Data      = require(srcPath + 'Data');
-  const CharSlots = require(srcPath + 'CharSlots');
-  const NpcTypes = require(srcPath + 'NpcTypes');
-  const NpcSizes = require(srcPath + 'NpcSizes');
+  //const CharSlots = require(srcPath + 'CharSlots');
+ // const NpcTypes = require(srcPath + 'NpcTypes');
+  //const NpcSizes = require(srcPath + 'NpcSizes');
 
   return {
     event: state => (socket, mob, args) => {
@@ -65,7 +65,7 @@ module.exports = (srcPath) => {
       });
 
       options.push({
-        display: `Palavras-chaves : <yellow>${typeof mob.keywords == 'undefined' || mob.keywords == '' ? '<red>Nenhum!!!</red>': mob.keywords}</yellow>`,
+        display: `Palavras-chaves : <yellow>${typeof mob.keywords == 'undefined' || mob.keywords == '' ? '<red>None!!!</red>': mob.keywords}</yellow>`,
         onSelect: () => {
           write('Entre com TODAS palavras-chaves (Separadas por virgula, sem espaço): ');
           socket.once('data', keywords => {
@@ -102,7 +102,7 @@ module.exports = (srcPath) => {
         extraDescs += extraDescs != '' ? ',' + desc : desc;
       }
       options.push({
-        display: `Descrições extras : <yellow>${extraDescs != '' ? extraDescs : '<Nenhuma>'}</yellow>`,
+        display: `Extra Descriptions : <yellow>${extraDescs != '' ? extraDescs : '<Nonea>'}</yellow>`,
         onSelect: () => {
           return socket.emit('medit-extradesc-menu', socket, mob, args);
         },
@@ -141,10 +141,10 @@ module.exports = (srcPath) => {
           });
         },
       });
-
+/*
       if (!mob.metadata.type) mob.metadata.type = '';
       options.push({
-        display: `Tipo : <yellow>${mob.metadata.type != '' ? NpcTypes[mob.metadata.type].name : 'Indefinido' }</yellow>`,
+        display: `Tipo : <yellow>${mob.metadata.type != '' ? NpcTypes[mob.metadata.type].name : 'Undefined' }</yellow>`,
         onSelect: () => {
           return socket.emit('medit-type-menu', socket, mob, args);
         },
@@ -152,12 +152,14 @@ module.exports = (srcPath) => {
 
       if (!mob.metadata.size) mob.metadata.size = '';
       options.push({
-        display: `Tamanho : <yellow>${mob.metadata.size != '' ? NpcSizes[mob.metadata.size].name : 'Indefinido' }</yellow>`,
+        display: `Tamanho : <yellow>${mob.metadata.size != '' ? NpcSizes[mob.metadata.size].name : 'Undefined' }</yellow>`,
         onSelect: () => {
           return socket.emit('medit-size-menu', socket, mob, args);
         },
       });
+      */
 
+/*
       // Flags
       if (typeof mob.metadata.npcFlags == 'undefined') {
         mob.metadata.npcFlags = [];
@@ -165,7 +167,7 @@ module.exports = (srcPath) => {
 
       let actualFlags = mob.metadata.npcFlags.join(' ');
       if (actualFlags == '') {
-        actualFlags = '<Nenhuma>';
+        actualFlags = '<Nonea>';
       }
 
       options.push({
@@ -174,15 +176,16 @@ module.exports = (srcPath) => {
           return socket.emit('medit-flags-menu', socket, mob, args);
         },
       });
+      */
 
-      // Afetamentos
+     /* // Afetamentos
       if (typeof mob.metadata.affFlags == 'undefined') {
         mob.metadata.affFlags = [];
       }
 
       let actualAffects = mob.metadata.affFlags.join(' ');
       if (actualAffects == '') {
-        actualAffects = '<Nenhuma>';
+        actualAffects = '<Nonea>';
       }
 
       options.push({
@@ -190,10 +193,10 @@ module.exports = (srcPath) => {
         onSelect: () => {
           return socket.emit('medit-affects-menu', socket, mob, args);
         },
-      });
+      }); */
 
       options.push({
-        display: `Behaviors : <yellow>${mob.behaviors ? JSON.stringify(mob.behaviors) : '<Nenhum>'}</yellow>`,
+        display: `Behaviors : <yellow>${mob.behaviors ? JSON.stringify(mob.behaviors) : '<None>'}</yellow>`,
         onSelect: () => {
           args.errorMsg = 'Ainda em construção!';
           //return socket.emit('medit-behaviors-menu', socket, mob, args);
@@ -202,7 +205,7 @@ module.exports = (srcPath) => {
       });
 
       options.push({
-        display: `Script : <yellow>${mob.script || '<Nenhum>'}</yellow>`,
+        display: `Script : <yellow>${mob.script || '<None>'}</yellow>`,
         onSelect: () => {
           // Validacao da existencia do script?
           write('Entre com o script: ');
@@ -252,7 +255,7 @@ module.exports = (srcPath) => {
           options.push({ display: sprintf("<green>%15s</green> : <yellow>%s</yellow>", mod.toUpperCase(), mob.attributes[mod])});
         }
       }
-
+/*
       options.push({
         display: 'Equipamento/Inventário :',
         onSelect: () => {
@@ -268,7 +271,8 @@ module.exports = (srcPath) => {
           }
         }
       }
-
+      */
+/*
       if (mob.equipment) {
         for (let entry in mob.equipment) {
           for (let eq in mob.equipment[entry]) {
@@ -277,10 +281,10 @@ module.exports = (srcPath) => {
           }
         }
       }
-
+*/
       let quit = [];
       quit.push({
-        display: `Sair`,
+        display: `Leave Menu`,
         onSelect: () => {
           write('Deseja salvar as alterações no mob? [<b>s/N</b>]: ');
           socket.once('data', confirmation => {
@@ -331,7 +335,7 @@ module.exports = (srcPath) => {
         say(`<red>${args.errorMsg}</red>`);
         args.errorMsg = '';
       }
-      write('Entre com a opção : ');
+      write('Enter your choice : ');
 
       socket.once('data', choice => {
         choice = choice.toString().trim().toLowerCase();

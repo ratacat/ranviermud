@@ -76,6 +76,8 @@ module.exports = (src) => {
             case error instanceof RestrictedCommandError:
               Broadcast.sayAt(player, "You can't do that.");
               break;
+            /*case error instanceof EndCommandLoopError:
+              return; */
             default:
               Logger.error(error);
           }

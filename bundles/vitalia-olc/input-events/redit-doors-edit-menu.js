@@ -146,7 +146,7 @@ module.exports = (srcPath) => {
 
         let actualFlags = door.flags.join(' ');
         if (actualFlags == '') {
-          actualFlags = '<Nenhuma>';
+          actualFlags = '<Nonea>';
         }
 
         options.push({
@@ -181,7 +181,7 @@ module.exports = (srcPath) => {
           args.errorMsg = '';
         }
 
-        write('Entre com a opção : ');
+        write('Enter your choice : ');
 
         socket.once('data', choice => {
           choice = choice.toString().trim().toLowerCase();

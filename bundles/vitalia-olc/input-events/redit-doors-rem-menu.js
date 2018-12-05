@@ -25,7 +25,7 @@ module.exports = (srcPath) => {
           const roomDef = state.RoomManager.getRoom(key);
           let actualFlags = value.flags.join(' ');
           if (actualFlags == '') {
-            actualFlags = '<Nenhuma>';
+            actualFlags = '<Nonea>';
           }
           options.push({
             display: ` [<cyan>${value.name || 'uma porta'}</cyan>] [<green>${value.closed ? 'Fechada' : 'Aberta'}</green>][<green>${value.locked ? 'Trancada' : 'Destrancada'}</green>][<green>${value.lockedBy ? 'Key: <yellow>' + value.lockedBy + '</yellow>': 'Sem chave'}</green>] [<cyan>${key}</cyan>] <cyan>${roomDef.title}</cyan>\r\n Flags: ${actualFlags}\r\n`,

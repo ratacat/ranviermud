@@ -72,7 +72,7 @@ module.exports = srcPath => {
         if (randomRoom && door && (door.locked || door.closed)) {
           // maybe a possible feature where it could be configured that they can open doors
           // or even if they have the key they can unlock the doors
-          Logger.verbose(`NPC [${this.uuid}] wander blocked by door.`);
+          //Logger.verbose(`NPC [${this.uuid}] wander blocked by door.`);
           return;
         }
 
@@ -84,9 +84,18 @@ module.exports = srcPath => {
           return;
         }
 
-        Logger.verbose(`NPC [${this.uuid}] wandering from ${this.room.entityReference} to ${randomRoom.entityReference}.`);
-        Broadcast.sayAt(this.room, `${this.name} wanders ${direction}.`);
-        this.moveTo(randomRoom);
+        //Logger.verbose(`NPC [${this.uuid}] wandering from ${this.room.entityReference} to ${randomRoom.entityReference}.`);
+        //use metadata.movement for a random moveVerb if NPC has it
+        if (this.metadata.movement && !Array.isArray(this.metadata.movement)) {
+          moveVerb = this.metadata.movement;
+        } else if (this.metadata.movement && Array.isArray(this.metadata.movement)) {
+          var moveVerbs = this.metadata.movement;
+          var moveVerb = moveVerbs[Math.floor(Math.random() * moveVerbs.length)];
+        } else if (!this.metadata.movement) {
+          var moveVerb = "leaves";
+        }
+          Broadcast.sayAt(this.room, `${this.name} </b><white>${moveVerb} ${direction}.</white>`);
+          this.moveTo(randomRoom);
       }
     }
   };

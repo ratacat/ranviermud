@@ -1,0 +1,237 @@
+---
+- id: chubby-weasel
+  keywords: ["chubby","weasel"]
+  level: 9
+  name: "a chubby <yellow>weasel</yellow>"
+  description: >-
+    The weasel's eyes dart back and forth. He looks fast!
+  attributes:
+    health: 160
+    strength: 25
+  behaviors:
+    ranvier-wander:
+      interval: 75
+    combat: true
+  metadata:
+    long-name: "a chubby <yellow>weasel</yellow> bares his teeth and hisses at you!"
+    movement: "trundles"
+- id: speckled-beetle
+  keywords: ["speckled","beetle"]
+  level: 4
+  name: "a <black><b><white>sp</white>eck<white>le</white>d beetle</b></black>"
+  description: >-
+    She is oblong shaped and very focused on a particular flower.
+  attributes:
+    health: 75
+    strength: 12
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 25
+  metadata:
+    long-name: "a <black><b><white>sp</white>eck<white>le</white>d beetle</b></black> picks its way over the forest floor."
+    movement: ["launches into the air and buzzes","buzzes","launches into the air and smacks you right in the nose before recovering and buzzing off to the"]
+- id: large-earthworm
+  keywords: ["earthworm","worm","large"]
+  level: 6
+  name: "<b><black>a large earthworm</black></b>"
+  description: >-
+    <yellow>He is covered dirt!</yellow>
+  attributes:
+    health: 110
+    strength: 17
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 39
+  metadata:
+    long-name: "Leaving a trail of ooze, <b><black>a large earthworm</black></b> digests some leaf matter."
+    movement: "wriggles"
+- id: green-flicker
+  keywords: ["green","flicker"]
+  level: 6
+  name: "<b><green>a green flicker</green></b>"
+  description: >-
+    <yellow>She careens around you, watch your eyes!</yellow>
+  attributes:
+    health: 110
+    strength: 17
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 66
+  metadata:
+    long-name: "<b><green>a green flicker swoops through the underbrush!</green></b>"
+    movement: "darts"
+- id: striped-warbler
+  keywords: ["striped","warbler"]
+  level: 8
+  name: "<b><magenta>a st<white>r</white>i<white>p</white>e<white>d</white> warbler</magenta></b>"
+  description: >-
+    <yellow>He struts about, hopping from branch to branch.</yellow>
+  attributes:
+    health: 140
+    strength: 21
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 72
+  metadata:
+    long-name: 
+      ["<b><magenta>a st<white>r</white>i<white>p</white>e<white>d</white> warbler</magenta></b> trills his morning devotions.",
+       "Beaming with joy, this<b><magenta> st<white>r</white>i<white>p</white>e<white>d</white> warbler</magenta></b> showers you with luscious chirps."]
+    movement: "hops from branch to branch and disappears to the"
+- id: lean-red-squirrel
+  keywords: ["lean","red","squirrel"]
+  level: 12
+  name: "a lean <red>red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red>"
+  description: >-
+    <yellow>He winks at you, before launching him onto a tree. Oh my god, look at those nuts!</yellow>
+  attributes:
+    health: 200
+    strength: 35
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 91
+  metadata:
+    long-name: 
+      ["<red>a lean red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> eyes you from a branch.",
+       "<red>a lean red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> leaps from branch to branch!"]
+    movement: "bounds"
+- id: grey-mouse
+  keywords: ["grey","mouse"]
+  level: 10
+  name: "<black><b>a grey mouse</b></black>"
+  description: >-
+    <yellow>She scurries along, looking for seeds.</yellow>
+  attributes:
+    health: 170
+    strength: 23
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 91
+  metadata:
+    long-name: 
+      ["a <black><b>grey mouse</b></black> scurries over your feet.",
+       "Whiskers twitching a <black><b>grey mouse</b></black> stops to sniff the air.",
+       "a shower of dirt flies into the air as a <black><b>grey mouse</b></black> begins digging."]
+    movement: ["scurries","squeeks loudly and darts","meanders","wanders","digs a hole, you see a trail of dirt heading","departs to the"]
+- id: sturdy-badger
+  keywords: ["sturdy","badger"]
+  level: 18
+  name: "a <black><b>sturdy ba<white>dg</white>er</b></black>"
+  description: >-
+    <yellow>She sniffs at you in disdain.</yellow>
+  attributes:
+    health: 290
+    strength: 45
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 145
+  metadata:
+    long-name: "Serenely confident, <black><b>a sturdy ba<white>dg</white>er</b></black> ambles along the path."
+    movement: ["trundles","stomps","flashes you a chilling glare before turning around and sauntering off to the", "traipses","rambles off to the", "marches"]
+- id: soft-eyed-doe
+  keywords: ["soft","eyed","doe","soft-eyed","deer"]
+  level: 25
+  name: "<yellow>a soft-eyed doe</yellow>"
+  description: >-
+    <yellow>Her ears perk up as you approach.</yellow>
+  attributes:
+    health: 375
+    strength: 55
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 99
+  metadata:
+    long-name: "<yellow>a soft-eyed doe</yellow> meanders through, nibbling on leaves."
+    movement: ["bounds off to the","wanders","traipses","strolls"]
+- id: yellow-centipede
+  keywords: ["centipede"]
+  level: 2
+  name: "<yellow><b>a c<black>e</black>n<black>t</black>i<black>p</black>e<black>d</black>e</b></yellow>"
+  description: >-
+    <yellow>It has a striking appearance.</yellow>
+  attributes:
+    health: 50
+    strength: 9
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 36
+  metadata:
+    long-name: "<yellow><b>a c<black>e</black>n<black>t</black>i<black>p</black>e<black>d</black>e</b></yellow> cruises along the ground."
+    movement: ["cruises","ambles","scampers off to the"]
+- id: pink-centipede
+  keywords: ["centipede"]
+  level: 3
+  name: "<yellow><b>a c<magenta>e</magenta>n<magenta>t</magenta>i<magenta>p</magenta>e<magenta>d</magenta>e</b></yellow>"
+  description: >-
+    <yellow>Her ears perk up as you approach.</yellow>
+  attributes:
+    health: 60
+    strength: 9
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 21
+  metadata:
+    long-name: "<yellow><b>Arching along this c<magenta>e</magenta>n<magenta>t</magenta>i<magenta>p</magenta>e<magenta>d</magenta>e bumbles towards you.</b></yellow>"
+    movement: ["cruises","ambles","scampers off to the"]
+- id: curious-jay
+  keywords: ["curious", "jay"]
+  level: 8
+  name: "<blue><b>a curious jay<b></blue>"
+  description: >-
+    <yellow>He catches your eye, and gives you a slight nod.</yellow>
+  attributes:
+    health: 110
+    strength: 19
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 21
+  metadata:
+    long-name: "<blue><b>a curious jay observes the activity of the forest.<b></blue>"
+    movement: ["saunters","darts off to the","flies","hops","runs"]
+- id: fierce-shrew
+  keywords: ["fierce", "shrew"]
+  level: 17
+  name: "<cyan><b>a fierce shrew</b></cyan>"
+  description: >-
+    "He bounces up in the air, pulling into a quick backflip!"
+  attributes:
+    health: 210
+    strength: 50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 11
+  metadata:
+    long-name: "Bristling with energy, this <cyan><b>fierce shrew</b></cyan> is bounding through the underbrush!"
+    movement: ["marches","careens","hurries","scampers","runs","trots to the","pees on your foot and disappears to the"]
+- id: baby-fawn
+  keywords: ["fierce", "shrew"]
+  level: 11
+  name: "<yellow><b>a</b> b<b>a</b>b<b>y</b> f<b>a</b>wn</yellow>"
+  description: >-
+    "His head snaps up to stare at you!"
+  attributes:
+    health: 100
+    strength: 28
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 11
+  metadata:
+    long-name: "With massive eyes, <yellow><b>a</b> b<b>a</b>b<b>y</b> f<b>a</b>wn</yellow> glances your way."
+    movement: ["bounds","ambles","hastens","hurries off to the"]
+
+
+
+
+

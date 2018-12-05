@@ -7,6 +7,7 @@ module.exports = (srcPath, bundlePath) => {
   const B = require(srcPath + 'Broadcast');
   const CommandParser = require(srcPath + 'CommandParser').CommandParser;
   const Item = require(srcPath + 'Item');
+  const Random = require(srcPath + 'RandomUtil');
   const ItemType = require(srcPath + 'ItemType');
   const Logger = require(srcPath + 'Logger');
   const Player = require(srcPath + 'Player');
@@ -219,7 +220,19 @@ module.exports = (srcPath, bundlePath) => {
           npcLabel = '<green>NPC</green>';
           break;
       }
-      B.sayAt(player, `[${npcLabel}] ` + npc.name + combatantsDisplay);
+
+      // if npc has long-name(s) select a random one
+      if (npc.metadata['long-name']) {
+        let long = npc.metadata['long-name'];
+        if (Array.isArray(long)) {
+          var rand = long[Math.floor(Math.random() * long.length)];
+          B.sayAt(player, `[${npcLabel}] ` + rand + combatantsDisplay);
+        } else {
+          B.sayAt(player, `[${npcLabel}] ` + npc.metadata['long-name'] + combatantsDisplay);
+        }
+      } else {
+        B.sayAt(player, `[${npcLabel}] ` + npc.name + combatantsDisplay);
+    }
     });
   }
 

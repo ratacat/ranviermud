@@ -9,7 +9,7 @@ const sprintf = require('sprintf-js').sprintf;
 module.exports = (srcPath) => {
   const EventUtil = require(srcPath + 'EventUtil');
   const Logger    = require(srcPath + 'Logger');
-  const NpcAffects = require(srcPath + 'NpcAffects');
+//  const NpcAffects = require(srcPath + 'NpcAffects');
 
   return {
     event: state => (socket, mob, args) => {
@@ -63,7 +63,7 @@ module.exports = (srcPath) => {
       }
       let actualAffects = mob.metadata.affFlags.join(' ');
       if (actualAffects == '') {
-        actualAffects = '<Nenhuma>';
+        actualAffects = '<Nonea>';
       }
       say(`Affects atuais: ${actualAffects}`);
       if (typeof args.errorMsg != 'undefined' && args.errorMsg != '') {

@@ -34,9 +34,6 @@
   coordinates: [0, -2, 1]
   description: "You are in the attic."
   # explicitly defined exit to leave the area
-  exits:
-    - direction: east
-      roomId: "limbo:white"
 
 - id: hallway-east-1
   title: Hallway East 1

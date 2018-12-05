@@ -209,3 +209,9 @@ class InvalidCommandError extends Error {}
 class RestrictedCommandError extends Error {}
 exports.InvalidCommandError = InvalidCommandError;
 exports.RestrictedCommandError = RestrictedCommandError;
+
+//for 
+/*
+class EndCommandLoopError extends Error {}
+exports.EndCommandLoopError = EndCommandLoopError;
+*/
