@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "jsdoc": "^3.5.5",
-    "ndb": "^1.0.41",
+    "ndb": "^1.0.42",
     "tui-jsdoc-template": "^1.2.2"
   }
 }

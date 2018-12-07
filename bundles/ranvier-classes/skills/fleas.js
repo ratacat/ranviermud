@@ -14,7 +14,7 @@ module.exports = (srcPath) => {
   const tickInterval = 3;
 
   function getDamage(player) {
-    return player.getAttribute('intellect') * (damagePercent / 100);
+    return player.getAttribute('Insight') * (damagePercent / 100);
   }
 
   return {
@@ -54,7 +54,7 @@ module.exports = (srcPath) => {
     },
 
     info: (player) => {
-      return `Send a vicious swarm of fleas at your opponent, doing ${damagePercent}% of your Intellect as Nature damage.`;
+      return `Send a vicious swarm of fleas at your opponent, doing ${damagePercent}% of your Insight as Nature damage.`;
     }
   };
 };

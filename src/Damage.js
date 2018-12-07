@@ -46,7 +46,7 @@ class Damage {
     this.source = source;
     this.attacker = attacker;
     this.hidden = hidden;
-    this.critical = critical;
+    this.criticalchance = critical;
     this.criticalMultiplier = criticalMultiplier;
   }
 
@@ -60,7 +60,7 @@ class Damage {
 
     if (this.attacker) {
       const critChance = Math.max(this.attacker.getMaxAttribute('critical') || 0, 0);
-      this.critical = Random.probability(critChance);
+      this.criticalchance = Random.probability(critChance);
       if (this.critical) {
         amount = Math.ceil(amount * this.criticalMultiplier);
       }

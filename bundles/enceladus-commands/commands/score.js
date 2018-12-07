@@ -15,13 +15,28 @@ module.exports = (srcPath) => {
       say('<b>' + B.line(60, '-', 'green'));
 
       let stats = {
-        strength: 0,
-        agility: 0,
-        intellect: 0,
-        stamina: 0,
-        armor: 0,
+        Strength: 0,
+        Fortitude: 0,
+        Dexterity: 0,
+        Reflexes: 0,
+        Insight: 0,
+        Sensitivity: 0,
+        Spirit: 0,
+        Luck: 0,
         health: 0,
+        armor: 0,
+        dodge: 0,
+        pulse: 0,
+        hitroll: 0,
+        damroll: 0,
         critical: 0,
+        criticalmultiplier: 0,
+        magicfind: 0,
+        healmod: 0,
+        detection: 0,
+        spellpower: 0,
+        spiritpower: 0,
+        focus: 100
       };
 
       for (const stat in stats) {
@@ -100,13 +115,13 @@ module.exports = (srcPath) => {
         }
       };
 
-      printStat('strength', false); // left
+      printStat('Strength', false); // left
       say('<b><green>' + sprintf('%36s', 'Gold ')); // right
-      printStat('agility', false); // left
+      printStat('Reflexes', false); // left
       say(sprintf('%36s', '.' + B.line(12) + '.')); // right
-      printStat('intellect', false); // left
+      printStat('Insight', false); // left
       say(sprintf('%22s| <b>%10s</b> |', '', p.getMeta('currencies.gold') || 0)); // right
-      printStat('stamina', false); // left
+      printStat('Fortitude', false); // left
       say(sprintf('%36s', "'" + B.line(12) + "'")); // right
 
       say(':' + B.line(22) + ':');

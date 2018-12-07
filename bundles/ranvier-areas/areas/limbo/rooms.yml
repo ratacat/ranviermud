@@ -140,7 +140,7 @@
     - {id: 'limbo:wallythewonderful', respawnChance: 0}
   exits:
     - {roomId: 'limbo:white', direction: east}
-    - {roomId: 'KulwycksGrove:a-wandering-path', direction: north}
+    - {roomId: 'Cymbe:a-large-cookfire', direction: north}
 - id: context
   title: Room Context Commands Test
   script: context

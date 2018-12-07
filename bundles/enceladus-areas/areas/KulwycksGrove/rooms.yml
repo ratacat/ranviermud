@@ -23,6 +23,8 @@
   title: <yellow>A Wandering Path</yellow>
   description: <yellow><b>The</b> <white>da<b>p</b>pl<b>e</b>d</white> <b>light</b></yellow></b><green> spreads across the forest floor. <yellow>The ground is covered in</yellow> <b>soft moss</b>, with the path forming a tunnel through the canopy of Oaks, Maple and Tamarack. </green>
   coordinates: [1, 17, 0]
+  exits:
+    - {roomId: 'Cymbe:scraggy-dirt-path', direction: south}
   npcs:
     - {id: 'KulwycksGrove:yellow-centipede', respawnChance: 7, maxLoad: 1}
     - {id: 'KulwycksGrove:green-flicker', respawnChance: 5, maxLoad: 2}

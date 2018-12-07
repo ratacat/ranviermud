@@ -1,18 +1,18 @@
 {
   "attributes": {
-    "strength": {
+    "Strength": {
       "delta": 0,
       "base": 17
     },
-    "agility": {
+    "Reflexes": {
       "delta": 0,
       "base": 10
     },
-    "intellect": {
+    "Insight": {
       "delta": 0,
       "base": 8
     },
-    "stamina": {
+    "Fortitude": {
       "delta": 0,
       "base": 11
     },

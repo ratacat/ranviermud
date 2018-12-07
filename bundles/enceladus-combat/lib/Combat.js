@@ -241,7 +241,7 @@ class Combat {
    */
   static normalizeWeaponDamage(attacker, amount) {
     let speed = this.getWeaponSpeed(attacker);
-    amount += attacker.hasAttribute('strength') ? attacker.getAttribute('strength') : attacker.level;
+    amount += attacker.hasAttribute('Strength') ? attacker.getAttribute('Strength') : attacker.level;
     return Math.round(amount / 3.5 * speed);
   }
 }

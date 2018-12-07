@@ -35,7 +35,7 @@ module.exports = srcPath => {
       },
 
       effectDeactivated: function () {
-        Broadcast.sayAt(this.target, '<yellow>You feel your strength return.</yellow>');
+        Broadcast.sayAt(this.target, '<yellow>You feel your Strength return.</yellow>');
       },
 
       hit: function () {

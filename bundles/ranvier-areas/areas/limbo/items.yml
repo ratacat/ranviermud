@@ -28,7 +28,7 @@
   roomDesc: "A wooden chest rests in the corner, its hinges badly rusted."
   keywords: [ "wooden", "chest" ]
   description: "Time has not been kind to this chest. It seems to be held together solely by the dirt and rust."
-  items: [ "limbo:rustysword", "limbo:leathervest", "limbo:potionhealth1", "limbo:potionstrength1" ]
+  items: [ "limbo:rustysword", "limbo:leathervest", "limbo:potionhealth1", "limbo:potionStrength1" ]
   closed: true
   maxItems: 5
   metadata:
@@ -58,8 +58,8 @@
     maxDamage: 20
     speed: 1
     stats:
-      strength: 2
-      stamina: 2
+      Strength: 2
+      Fortitude: 2
       critical: -1
   behaviors:
     sellable:
@@ -104,10 +104,10 @@
       options:
         restores: 30
         stat: "health"
-- id: potionstrength1
+- id: potionStrength1
   name: "Potion of Strength I"
   roomDesc: "Potion of Strength I"
-  keywords: [ "potion", "strength" ]
+  keywords: [ "potion", "Strength" ]
   type: POTION
   metadata:
     level: 1
@@ -119,12 +119,12 @@
       destroyOnDepleted: true
       # effect config, see Effect docs. `name` is auto-populated with the item name
       config:
-        description: "Increases strength by <b>10</b> for <b>15</b> seconds"
+        description: "Increases Strength by <b>10</b> for <b>15</b> seconds"
         duration: 15000
       # effect state, see Effect docs
       state:
         magnitude: 10
-        stat: "strength"
+        stat: "Strength"
 - id: bladeofranvier
   name: "Blade of Ranvier"
   type: WEAPON
@@ -143,8 +143,8 @@
     specialEffects:
       - "Chance on hit: Blade of Ranvier thirsts for blood and heals the wielder for 25% of damage done."
     stats:
-      strength: 2
-      stamina: 2
+      Strength: 2
+      Fortitude: 2
       critical: 3
 - id: woodenshield
   name: "Wooden Shield"

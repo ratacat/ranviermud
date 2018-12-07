@@ -7,13 +7,17 @@
     The weasel's eyes dart back and forth. He looks fast!
   attributes:
     health: 160
-    strength: 25
+    Strength: 25
   behaviors:
     ranvier-wander:
+      areaRestricted: true
       interval: 75
     combat: true
   metadata:
-    long-name: "a chubby <yellow>weasel</yellow> bares his teeth and hisses at you!"
+    long-name: ["a chubby <yellow>weasel</yellow> bares his teeth and hisses at you!",
+                "His face deep in his butthole, <yellow>the chubby weasel turns around</yellow> to fix you with a <red><b>murderous</b></red> stare.",
+                "<yellow>Belly fat <b>jiggling</b>, this chubby weasel runs nimbly along a branch.</yellow>",
+                "With <red>bloody</red> <green><b>feathers</b></green> on his face, the <yellow>chubby weasel</yellow> gorges himself on <green><b>a dead flicker.</b></green>"]
     movement: "trundles"
 - id: speckled-beetle
   keywords: ["speckled","beetle"]
@@ -23,13 +27,16 @@
     She is oblong shaped and very focused on a particular flower.
   attributes:
     health: 75
-    strength: 12
+    Strength: 12
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 25
   metadata:
-    long-name: "a <black><b><white>sp</white>eck<white>le</white>d beetle</b></black> picks its way over the forest floor."
+    long-name: ["a <black><b><white>sp</white>eck<white>le</white>d beetle</b></black> picks its way over the forest floor.",
+                "With a blur of wings, a <black><b><white>sp</white>eck<white>le</white>d beetle</b></black> zips through the air.",
+                "Her butt raised high, this <black><b><white>sp</white>eck<white>le</white>d beetle</b></black> is about to spray you!"]
     movement: ["launches into the air and buzzes","buzzes","launches into the air and smacks you right in the nose before recovering and buzzing off to the"]
 - id: large-earthworm
   keywords: ["earthworm","worm","large"]
@@ -39,13 +46,16 @@
     <yellow>He is covered dirt!</yellow>
   attributes:
     health: 110
-    strength: 17
+    Strength: 17
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 39
   metadata:
-    long-name: "Leaving a trail of ooze, <b><black>a large earthworm</black></b> digests some leaf matter."
+    long-name: ["Leaving a trail of ooze, <b><black>a large earthworm</black></b> digests some leaf matter.",
+                "<b><black>a large earthworm</black></b> is wriggling at your feet.",
+                "Half protruding from the ground, <b><black>this large earthworm</black></b> is about to disappear."]
     movement: "wriggles"
 - id: green-flicker
   keywords: ["green","flicker"]
@@ -55,13 +65,16 @@
     <yellow>She careens around you, watch your eyes!</yellow>
   attributes:
     health: 110
-    strength: 17
+    Strength: 17
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 66
   metadata:
-    long-name: "<b><green>a green flicker swoops through the underbrush!</green></b>"
+    long-name: ["<b><green>a green flicker swoops through the underbrush!</green></b>",
+                "Shrieking hysterically, <b><green>a green flicker tries to lead you away from her nest!</green></b>",
+                "<b><green>a green flicker hops along the ground</green></b> picking at earthworms."]
     movement: "darts"
 - id: striped-warbler
   keywords: ["striped","warbler"]
@@ -71,10 +84,11 @@
     <yellow>He struts about, hopping from branch to branch.</yellow>
   attributes:
     health: 140
-    strength: 21
+    Strength: 21
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 72
   metadata:
     long-name: 
@@ -82,22 +96,25 @@
        "Beaming with joy, this<b><magenta> st<white>r</white>i<white>p</white>e<white>d</white> warbler</magenta></b> showers you with luscious chirps."]
     movement: "hops from branch to branch and disappears to the"
 - id: lean-red-squirrel
-  keywords: ["lean","red","squirrel"]
+  keywords: ["lean","red","squirrel","strong","daring"]
   level: 12
   name: "a lean <red>red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red>"
   description: >-
     <yellow>He winks at you, before launching him onto a tree. Oh my god, look at those nuts!</yellow>
   attributes:
     health: 200
-    strength: 35
+    Strength: 35
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 91
   metadata:
     long-name: 
-      ["<red>a lean red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> eyes you from a branch.",
-       "<red>a lean red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> leaps from branch to branch!"]
+      ["a <red>lean red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> gives you a little nod.",
+       "a <red>strong red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> leaps from branch to branch!",
+       "With a burst of air, a <red>daring red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> leaps right in front of your face!",
+       "Tapping his fingers along a log, the <red>red s<yellow>qu</yellow>ir<yellow>re</yellow>l</red> stares at you pointedly."]
     movement: "bounds"
 - id: grey-mouse
   keywords: ["grey","mouse"]
@@ -107,10 +124,11 @@
     <yellow>She scurries along, looking for seeds.</yellow>
   attributes:
     health: 170
-    strength: 23
+    Strength: 23
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 91
   metadata:
     long-name: 
@@ -119,20 +137,23 @@
        "a shower of dirt flies into the air as a <black><b>grey mouse</b></black> begins digging."]
     movement: ["scurries","squeeks loudly and darts","meanders","wanders","digs a hole, you see a trail of dirt heading","departs to the"]
 - id: sturdy-badger
-  keywords: ["sturdy","badger"]
+  keywords: ["sturdy","badger","hefty"]
   level: 18
   name: "a <black><b>sturdy ba<white>dg</white>er</b></black>"
   description: >-
     <yellow>She sniffs at you in disdain.</yellow>
   attributes:
     health: 290
-    strength: 45
+    Strength: 45
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 145
   metadata:
-    long-name: "Serenely confident, <black><b>a sturdy ba<white>dg</white>er</b></black> ambles along the path."
+    long-name: ["Serenely confident, <black><b>a sturdy ba<white>dg</white>er</b></black> ambles along the path.",
+                "Looking cute but stern, this <black><b>hefty ba<white>dg</white>er</b></black> is sitting on her haunches, licking honey from her paws.",
+                "<black><b>a rather <white>large</white> ba<white>dg</white>er</b></black> is standing on her hindlegs sniffing the air."]
     movement: ["trundles","stomps","flashes you a chilling glare before turning around and sauntering off to the", "traipses","rambles off to the", "marches"]
 - id: soft-eyed-doe
   keywords: ["soft","eyed","doe","soft-eyed","deer"]
@@ -142,13 +163,16 @@
     <yellow>Her ears perk up as you approach.</yellow>
   attributes:
     health: 375
-    strength: 55
+    Strength: 55
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 99
   metadata:
-    long-name: "<yellow>a soft-eyed doe</yellow> meanders through, nibbling on leaves."
+    long-name: ["<yellow>a soft-eyed doe</yellow> meanders through, nibbling on leaves.",
+                "<yellow>a soft-eyed doe</yellow> is carefully plucking a <green><b>big leaf</b></green> from a nearby branch.",
+                "<yellow>Standing broad shouldered, this soft-eyed doe is licking her fur.</yellow> "]
     movement: ["bounds off to the","wanders","traipses","strolls"]
 - id: yellow-centipede
   keywords: ["centipede"]
@@ -158,10 +182,11 @@
     <yellow>It has a striking appearance.</yellow>
   attributes:
     health: 50
-    strength: 9
+    Strength: 9
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 36
   metadata:
     long-name: "<yellow><b>a c<black>e</black>n<black>t</black>i<black>p</black>e<black>d</black>e</b></yellow> cruises along the ground."
@@ -174,29 +199,35 @@
     <yellow>Her ears perk up as you approach.</yellow>
   attributes:
     health: 60
-    strength: 9
+    Strength: 9
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 21
   metadata:
-    long-name: "<yellow><b>Arching along this c<magenta>e</magenta>n<magenta>t</magenta>i<magenta>p</magenta>e<magenta>d</magenta>e bumbles towards you.</b></yellow>"
+    long-name: ["<yellow><b>Swinging side to side this c<magenta>e</magenta>n<magenta>t</magenta>i<magenta>p</magenta>e<magenta>d</magenta>e bumbles towards you.</b></yellow>",
+    "<yellow><b>Crawling along a branch, this c<magenta>e</magenta>n<magenta>t</magenta>i<magenta>p</magenta>e<magenta>d</magenta>e stretches out to sniff the air.</b></yellow>"]
     movement: ["cruises","ambles","scampers off to the"]
 - id: curious-jay
-  keywords: ["curious", "jay"]
+  keywords: ["curious", "jay","blue","bluejay","stoic","shimmering"]
   level: 8
-  name: "<blue><b>a curious jay<b></blue>"
+  name: "<blue><b>a curious jay</b></blue>"
   description: >-
     <yellow>He catches your eye, and gives you a slight nod.</yellow>
   attributes:
     health: 110
-    strength: 19
+    Strength: 19
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 21
   metadata:
-    long-name: "<blue><b>a curious jay observes the activity of the forest.<b></blue>"
+    long-name: ["<blue><b>a curious jay observes the activity of the forest.<b></blue>",
+                "<blue><b>This shimmering jay<b></blue> is inspecting a <yellow>dead log</yellow> for bugs.",
+                "<blue><b>Cackling with laughter, the shimmering jay scrutinizes you carefully.<b></blue>",
+                "<blue><b>a stoic bluejay is on the lookout.<b></blue>"]
     movement: ["saunters","darts off to the","flies","hops","runs"]
 - id: fierce-shrew
   keywords: ["fierce", "shrew"]
@@ -206,10 +237,11 @@
     "He bounces up in the air, pulling into a quick backflip!"
   attributes:
     health: 210
-    strength: 50
+    Strength: 50
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 11
   metadata:
     long-name: "Bristling with energy, this <cyan><b>fierce shrew</b></cyan> is bounding through the underbrush!"
@@ -222,10 +254,11 @@
     "His head snaps up to stare at you!"
   attributes:
     health: 100
-    strength: 28
+    Strength: 28
   behaviors:
     combat: true
     ranvier-wander:
+      areaRestricted: true
       interval: 11
   metadata:
     long-name: "With massive eyes, <yellow><b>a</b> b<b>a</b>b<b>y</b> f<b>a</b>wn</yellow> glances your way."

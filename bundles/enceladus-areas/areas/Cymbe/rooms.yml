@@ -1,0 +1,883 @@
+- id: a-large-cookfire
+  title: <yellow>A Large Cookfire </yellow>
+  description: ''
+  coordinates:
+    - 0
+    - 0
+    - 0
+  npcs: null
+  exits: []
+- id: the-blood-road-2
+  behaviors: {}
+  coordinates:
+    - 2
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Blood Road
+- id: the-blood-road
+  behaviors: {}
+  coordinates:
+    - 1
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Blood Road
+- id: the-blood-road-3
+  behaviors: {}
+  coordinates:
+    - 3
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Blood Road
+- id: the-blood-road-4
+  behaviors: {}
+  coordinates:
+    - -1
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Blood Road
+- id: the-blood-road-5
+  behaviors: {}
+  coordinates:
+    - -2
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Blood Road
+- id: the-blood-road-6
+  behaviors: {}
+  coordinates:
+    - -3
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Blood Road
+- id: the-camp-kitchen
+  behaviors: {}
+  coordinates:
+    - 0
+    - 1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Camp Kitchen
+- id: the-dish-tent
+  behaviors: {}
+  coordinates:
+    - 0
+    - 2
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Dish Tent
+- id: behind-thekitchen
+  behaviors: {}
+  coordinates:
+    - 1
+    - 2
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Behind the Kitchen
+- id: the-western-blood-road
+  behaviors: {}
+  coordinates:
+    - -4
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Blood Road
+- id: the-eastern-blood-road
+  behaviors: {}
+  coordinates:
+    - 4
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Blood Road
+- id: the-western-blood-road-2
+  behaviors: {}
+  coordinates:
+    - -5
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Blood Road
+- id: the-eastern-blood-road-2
+  behaviors: {}
+  coordinates:
+    - 5
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Blood Road
+- id: under-the-palisade-wall-5
+  behaviors: {}
+  coordinates:
+    - -4
+    - 5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: under-the-palisade-wall-4
+  behaviors: {}
+  coordinates:
+    - -4
+    - 4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: under-the-palisade-wall-6
+  behaviors: {}
+  coordinates:
+    - -3
+    - 5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: under-the-palisade-wall-7
+  behaviors: {}
+  coordinates:
+    - -3
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: the-western-wall
+  behaviors: {}
+  coordinates:
+    - -5
+    - 4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Wall
+- id: the-western-wall-2
+  behaviors: {}
+  coordinates:
+    - -5
+    - 3
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Wall
+- id: the-western-wall-3
+  behaviors: {}
+  coordinates:
+    - -5
+    - -2
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Wall
+- id: outside-the-gatehouse
+  behaviors: {}
+  coordinates:
+    - 6
+    - 1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Outside The Gatehouse
+- id: the-western-gatehouse
+  behaviors: {}
+  coordinates:
+    - -6
+    - 1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Gatehouse
+- id: the-northern-way
+  behaviors: {}
+  coordinates:
+    - -2
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Northern Way
+- id: the-northern-way-2
+  behaviors: {}
+  coordinates:
+    - -1
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Northern Way
+- id: crumbled-stone-gate
+  behaviors: {}
+  coordinates:
+    - 0
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: A Crumbled Stone Gate
+- id: the-northern-way-3
+  behaviors: {}
+  coordinates:
+    - 1
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Northern Way
+- id: the-northern-way-4
+  behaviors: {}
+  coordinates:
+    - 2
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Northern Way
+- id: under-the-palisade-wall-8
+  behaviors: {}
+  coordinates:
+    - 3
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: under-the-palisade-wall-9
+  behaviors: {}
+  coordinates:
+    - 4
+    - 5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: under-the-palisade-wall-10
+  behaviors: {}
+  coordinates:
+    - 5
+    - 5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: under-the-palisade-wall-11
+  behaviors: {}
+  coordinates:
+    - 5
+    - 4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: the-eastern-wall
+  behaviors: {}
+  coordinates:
+    - 6
+    - 4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Wall
+- id: the-eastern-wall-2
+  behaviors: {}
+  coordinates:
+    - 6
+    - 3
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Wall
+- id: outside-the-gatehouse-2
+  behaviors: {}
+  coordinates:
+    - -5
+    - 1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Outside The Gatehouse
+- id: the-eastern-gatehouse
+  behaviors: {}
+  coordinates:
+    - 7
+    - 1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Gatehouse
+- id: the-eastern-blood-road-3
+  behaviors: {}
+  coordinates:
+    - 6
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Blood Road
+- id: under-the-palisade-wall-12
+  behaviors: {}
+  coordinates:
+    - 4
+    - 6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade Wall
+- id: the-sable-road
+  behaviors: {}
+  coordinates:
+    - 0
+    - -1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Sable Road
+- id: the-sable-road-2
+  behaviors: {}
+  coordinates:
+    - 0
+    - -2
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Sable Road
+- id: the-sable-road-3
+  behaviors: {}
+  coordinates:
+    - 0
+    - -3
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Sable Road
+- id: inside-the-gates
+  behaviors: {}
+  coordinates:
+    - 0
+    - -4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Inside The Gates
+- id: the-massive-oak-gates-of-cymbe
+  behaviors: {}
+  coordinates:
+    - 0
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Massive Oak Gates Of Cymbe
+- id: approaching-cymbe-the-ember-of-borealis
+  behaviors: {}
+  coordinates:
+    - 0
+    - -6
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: 'Approaching Cymbe, The Ember of Borealis'
+- id: outside-the-eastern-tower
+  behaviors: {}
+  coordinates:
+    - 1
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Outside The Eastern Tower
+- id: outside-the-western-tower
+  behaviors: {}
+  coordinates:
+    - -1
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Outside The Western Tower
+- id: the-southern-wall
+  behaviors: {}
+  coordinates:
+    - 2
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Southern Wall
+- id: the-southern-wall-2
+  behaviors: {}
+  coordinates:
+    - 3
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Southern Wall
+- id: under-the-palisade-15
+  behaviors: {}
+  coordinates:
+    - 4
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: under-the-palisade-16
+  behaviors: {}
+  coordinates:
+    - 4
+    - -4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: under-the-palisade-17
+  behaviors: {}
+  coordinates:
+    - 5
+    - -4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: under-the-palisade-18
+  behaviors: {}
+  coordinates:
+    - 5
+    - -3
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: under-the-palisade-19
+  behaviors: {}
+  coordinates:
+    - 6
+    - -3
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: the-eastern-wall-4
+  behaviors: {}
+  coordinates:
+    - 6
+    - -1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Wall
+- id: the-eastern-wall-5
+  behaviors: {}
+  coordinates:
+    - 6
+    - -2
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Wall
+- id: the-southern-wall-3
+  behaviors: {}
+  coordinates:
+    - -2
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Southern Wall
+- id: the-southern-wall-4
+  behaviors: {}
+  coordinates:
+    - -3
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Southern Wall
+- id: under-the-palisade-20
+  behaviors: {}
+  coordinates:
+    - -4
+    - -5
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: under-the-palisade-21
+  behaviors: {}
+  coordinates:
+    - -4
+    - -4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: under-the-palisade-22
+  behaviors: {}
+  coordinates:
+    - -5
+    - -4
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: under-the-palisade-23
+  behaviors: {}
+  coordinates:
+    - -5
+    - -3
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Under The Palisade
+- id: the-eastern-wall-3
+  behaviors: {}
+  coordinates:
+    - 6
+    - 2
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Eastern Wall
+- id: the-western-wall-4
+  behaviors: {}
+  coordinates:
+    - -5
+    - -1
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Wall
+- id: the-western-wall-5
+  behaviors: {}
+  coordinates:
+    - -5
+    - 2
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: The Western Wall
+- id: outside-the-western-gates
+  behaviors: {}
+  coordinates:
+    - -6
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: Outside The Western Gates
+- id: a-path-of-red-stone
+  behaviors: {}
+  coordinates:
+    - -7
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: A Path of Red Stone
+- id: a-path-of-red-stone-2
+  behaviors: {}
+  coordinates:
+    - -8
+    - 0
+    - 0
+  description: ''
+  doors: {}
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: A Path of Red Stone
+- id: scraggy-dirt-path
+  behaviors: {}
+  coordinates:
+    - -8
+    - 1
+    - 0
+  description: ''
+  items: []
+  meta: {}
+  npcs: []
+  script: null
+  title: A Scraggy Dirth Path
+  exits:
+    - {roomId: 'KulwycksGrove:a-wandering-path', direction: north}
+
+

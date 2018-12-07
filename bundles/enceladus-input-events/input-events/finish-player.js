@@ -16,12 +16,27 @@ module.exports = (srcPath) => {
         // TIP:DefaultAttributes: This is where you can change the default attributes for players
         attributes: {
           health: 100,
-          strength: 20,
-          agility: 20,
-          intellect: 20,
-          stamina: 20,
+          Strength: 20,
+          Fortitude: 20,
+          Dexterity: 20,
+          Reflexes: 20,
+          Insight: 20,
+          Sensitivity: 20,
+          Spirit: 20,
+          Luck: 20,
           armor: 0,
-          critical: 0
+          dodge: 1,
+          pulse: 100, //thinking the characters base atk speed, probably have a multiplying affect on weapon speeds.
+          hitroll: 0,
+          damroll: 0,
+          critical: 1,
+          criticalmultiplier: 1.5,
+          magicfind: 0,
+          healmod: 0,
+          detection: 0,
+          spellpower: 0,
+          spiritpower: 0,
+          focus: 100
         }
       });
 
